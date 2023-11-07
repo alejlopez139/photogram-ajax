@@ -27,3 +27,5 @@ class Comment < ApplicationRecord
 
   scope :default_order, -> { order(created_at: :asc) }
 end
+
+#making a new branch need somethig new
